@@ -1,0 +1,101 @@
+:root {
+    --colorPrimary: #0F0738;
+    --colorOnPrimary: #ffffff;
+    --colorSecondary: #D80C1B;
+    --colorTertiary: #CFCDD7;
+    --colorBgLightGrey: #F2F2F2;
+}
+
+.rounded-5 {
+    border-radius: 30rem!important;
+}
+
+.bg-primary,
+.btn-primary {
+    background-color: var(--colorPrimary)!important;
+}
+
+.bg-light,
+.btn-light {
+    background-color: var(--colorTertiary)!important;
+}
+
+.bg-secondary,
+.btn-secondary {
+    background-color: var(--colorSecondary);
+}
+
+.text-primary {
+    color: var(--colorPrimary)!important;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.heading1 {
+    font-size: 3.6rem;
+}
+
+.heading2 {
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+.heading3 {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.heading4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.body2 {
+    font-size: 1.2rem;
+}
+
+.text-caption {
+    font-size: .9rem;
+}
+
+.bg-light-gray {
+    background-color: var(--colorBgLightGrey);
+}
+
+.shadow-sm {
+    box-shadow: 0px 25px 30px rgba(81, 80, 83, 0.05);
+}
+
+label {
+    font-weight: 500;
+}
+
+.btn,
+.form-control input:active {
+    outline: none;
+}
+
+.btn:active,
+.btn:focus,
+.btn:target,
+input.form-constrol:focus,
+input.form-constrol:target,
+input.form-constrol:active {
+    border: 1px solid var(--colorSecondary);
+    outline: 0px;
+}
+
+.form-control-lg {
+    padding: 1.2rem;
+    font-size: 1rem;
+}
+
+input {
+    border: 1px solid var(--colorTertiary)!important;
+}
+
+#phone.form-control {
+    padding-left: 5rem;
+}
